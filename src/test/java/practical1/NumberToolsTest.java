@@ -20,7 +20,7 @@ public class NumberToolsTest {
 	
 	@Test
 	public void testParse() {
-		double[] expected = {1,2,3,4,5};
+		double[] expected = {1,2,3,4,6};
 		double[] actual = NumberTools.parseString("1,2,3,4,5");
 		assertArrayEquals(expected, actual, TOLERANCE);
 
